@@ -7,14 +7,11 @@ import logo from "../../assets/holiday_village_FILL0_wght300_GRAD0_opsz48 3.png"
 
 const customStyles = {
     content: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
     top: '50%',
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
+    marginRight: '50%',
     transform: 'translate (-50%, -50%)'
     },
     overlay: {
