@@ -47,7 +47,9 @@ function Propertydetails() {
             setImages(res?.data?.images)
             setBigImage(res?.data?.images[0])
         })
-        .catch ((err) => console.log(err))
+        .catch ((err) => {
+            console.log(err)
+        })
     }, [])
 
 

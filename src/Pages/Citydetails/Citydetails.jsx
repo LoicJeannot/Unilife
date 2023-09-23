@@ -55,16 +55,22 @@ useEffect (() => {
         .then (res => {
             console.log(res?.data.data[0])
             setCity(res?.data.data[0])
+            .catch (err => {
+                console.log(err)
+            }
+            )
         })
         axios.get (`https://unilife-server.herokuapp.com/properties/city/${city_id}`)
         .then (res => {
         console.log(res.data.response)
         setPropertiesList(res.data.response)
-        setPropertyNumbers(res.data.total)
-    })
+        setPropertyNumbers(res.data.total)})
+        .catch(err => {
+            console.log(err)
+        })
     axios.get("https://unilife-server.herokuapp.com/propertyTypes")
 .then (res => {
-    console.log(res)
+    console.log(res)        
     setHometype(res.data.response)
 })
 }, [])
