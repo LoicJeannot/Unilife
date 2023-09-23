@@ -1,0 +1,46 @@
+.property-card img {
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    height: 100%;
+}
+
+.property-card {
+    display: grid;
+    grid-template-rows: 4fr 2fr 3fr 1fr;
+    border: #CED3D8 1px solid;
+    border-radius: 24px;
+    height: 48vh;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.property-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkblue);
+    color: white;
+}
+
+.property-link {
+    text-align: center;
+    text-decoration: none;
+}

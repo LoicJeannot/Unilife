@@ -1,0 +1,43 @@
+.property-details > * {
+    margin: 6px;
+}
+
+.image-row {
+    display: flex;
+}
+
+.image-row img {
+    width: 20%;
+}
+
+.bigimage-container img {
+    width: 80%;
+}
+
+.first-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bedroom-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.return-btn {
+    background-color: var(--darkblue);
+    color: white;
+    border-radius: 12px;
+    padding: 12px;
+}

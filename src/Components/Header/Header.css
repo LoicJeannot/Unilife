@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right > * {
+    margin: 6px;
+}
+
+.header-container {
+    background-color: var(--lightblue);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+}
+
+@media all and (min-width: 1024px) {
+    h4 {
+        font-size: 25px;
+    }
+    .contact-btn {
+        font-size: 25px;
+    }
+}
+
